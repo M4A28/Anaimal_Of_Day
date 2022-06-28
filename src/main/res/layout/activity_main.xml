@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="13"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_weight="1"
+        android:id="@+id/animal_img"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:layout_margin="8dp"
+        android:src="@mipmap/empty"/>
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:padding="4dp"
+        android:textIsSelectable="true"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_livespin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Live spen: "
+        android:textIsSelectable="true"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/tv_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Animal type: "
+        android:textIsSelectable="true"
+
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_dite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dite: "
+        android:textIsSelectable="true"
+
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_geo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geo range: "
+        android:padding="4dp"
+        android:textIsSelectable="true"
+
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_hiptit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hiptet: "
+        android:textIsSelectable="true"
+
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_lenght"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Length: "
+        android:textIsSelectable="true"
+
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wright: "
+        android:padding="4dp"
+        android:textIsSelectable="true"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+    <TextView
+        android:id="@+id/tv_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textIsSelectable="true"
+        android:padding="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:linksClickable="true"
+        android:layout_marginLeft="4dp"
+        android:background="@drawable/tv_data_vis"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="4dp" />
+
+    <Button
+        android:layout_margin="8dp"
+        android:id="@+id/getImage_btn"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:text="randome animal"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>
