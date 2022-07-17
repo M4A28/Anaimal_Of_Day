@@ -15,6 +15,6 @@
 ![Sample2](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img2.png "Sample")
 ![Sample3](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img3.png "Sample")
 ![Sample4](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img4.png "Sample")
-![Sample5](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img5.png"Sample")
+![Sample5](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img5.png "Sample")
 ![Sample6](https://github.com/M4A28/Anaimal_Of_Day/blob/main/img6.png "Sample")
 
