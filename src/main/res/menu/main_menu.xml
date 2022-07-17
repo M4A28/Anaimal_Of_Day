@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/share_app"
+        android:title="@string/share_app"
+        android:onClick="shareApp" />
+
+    <item
+        android:id="@+id/share_Animal"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"
+        android:title="@string/share_animal"
+        android:onClick="shareAnimal" />
+
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        android:onClick="about" />
+</menu>

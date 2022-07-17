@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">Animal Of Day</string>
+    <string name="livespan">Lifespan:</string>
+    <string name="animal_type">Animal type:</string>
+    <string name="diet">Diet:</string>
+    <string name="geo_range">Geo range:</string>
+    <string name="habitat">Habitat:</string>
+    <string name="length">Length:</string>
+    <string name="weight">Weight:</string>
+    <string name="link">Link:</string>
+    <string name="share_animal">share animal</string>
+    <string name="share_app">share app</string>
+    <string name="about">about</string>
+    <string name="version" formatted="false">Developed by: <a href="">Mohammed Mosa</a> \n\nThis app give you information about random animal every day.\nif you want more animals just click the button. \nif you like this app feel free to share it with your friend. \nmay you follow my account in the internet just click icons bellow thank you.</string>
+    <string name="twitter">twitter</string>
+    <string name="facebook">facebook</string>
+    <string name="github">github</string>
+    <string name="new_random_animal">new random animal</string>
+    <string name="animal_image">animal image</string>
+    <string name="no">NO</string>
+    <string name="yes">YES</string>
+    <string name="do_you_want_to_exit">Do you want to exit?</string>
+
+
+</resources>
